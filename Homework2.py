@@ -21,8 +21,8 @@ driver.find_element(By.XPATH, "//a[@data-test='@web/AccountLink']").click()
 # Click SignIn from side navigation
 driver.find_element(By.XPATH, "//a[@data-test='accountNav-signIn']").click()
 
-# wait for 3 sec
-sleep(3)
+# wait for 4 sec
+sleep(4)
 
 # Verify SignIn page opened
 expected = 'Sign into your Target account'
